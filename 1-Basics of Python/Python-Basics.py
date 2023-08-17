@@ -91,7 +91,7 @@ print(-3 // 2)  # -2
 print(int(-3 / 2))
 
 
-# Modular is similar to other languages
+# Modular is similar to other languages. It givers remainder
 print(10 % 3)
 
 # Modular is different for negative values, other languages gives 1 but python gives 2
