@@ -15,7 +15,7 @@ class Solution:
                 print("*", end=" ")
 
             # After 1 row completes, move to new line for printing.
-            # simply write print("") because by default \n is appended.
+            # simply write print("") or print() because by default \n is appended.
             # No need to write print("\n"), it will print newline 2 times(1 default, 1 written)
             print("")
 
