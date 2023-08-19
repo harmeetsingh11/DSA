@@ -2,10 +2,10 @@ class Solution:
     def printSquare(self, N):
 
         # This is the outer loop which will loop for the rows.
-        for i in range(N):
+        for i in range(1, N+1):
 
             #   This is the inner loop which will loop for the columns as we have to print a rectangular pattern.
-            for j in range(N):
+            for j in range(1, N+1):
 
                 # By default when we write print("*"), the default value of the end parameter of the built-in print function is \n (print("hello",end="\n")).
                 # So after finishing printing all the variables, a newline character is appended.
