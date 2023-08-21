@@ -21,7 +21,7 @@
 
 <p><span style="font-size:18px"><strong>Your Task:</strong></span></p>
 
-<p><span style="font-size:18px">You don't need to input anything. Complete the function <strong>printSquare()&nbsp;</strong>which takes&nbsp; an integer n <strong>&nbsp;</strong>as the input parameter&nbsp;and print the pattern.</span></p>
+<p><span style="font-size:18px">You don't need to input anything. Complete the function <strong>printTriangle()&nbsp;</strong>which takes&nbsp; an integer n <strong>&nbsp;</strong>as the input parameter&nbsp;and print the pattern.</span></p>
 
 <p><span style="font-size:18px"><strong>Constraints:</strong></span></p>
 
