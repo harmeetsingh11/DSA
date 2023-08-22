@@ -10,12 +10,15 @@
 
 <div style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#222426; --darkreader-inline-border-top:#3e4446; --darkreader-inline-border-right:#3e4446; --darkreader-inline-border-bottom:#3e4446; --darkreader-inline-border-left:#3e4446;"><span style="font-size:18px"><strong>Input: </strong>5</span><br>
 <br>
-<span style="font-size:18px"><strong>Output:</strong><br>
-1 2 3 4 5 <br>
-1 2 3 4 <br>
-1 2 3 <br>
-1 2 <br>
-1 </span></div>
+<span style="font-size:18px"><strong>Output:</strong>
+<pre style="background:#fff">
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+</pre>
+</span></div>
 
 <p>&nbsp;</p>
 
