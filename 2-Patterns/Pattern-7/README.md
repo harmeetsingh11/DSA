@@ -11,7 +11,7 @@
 <div style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#222426; --darkreader-inline-border-top:#3e4446; --darkreader-inline-border-right:#3e4446; --darkreader-inline-border-bottom:#3e4446; --darkreader-inline-border-left:#3e4446;"><span style="font-size:18px"><strong>Input: </strong>5</span><br>
 <br>
 <span style="font-size:18px"><strong>Output:</strong>
-<pre style="background:#fff">
+<pre style="background:#fff; font-size:1.3em;">
     *    
    ***   
   *****  
