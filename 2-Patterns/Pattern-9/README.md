@@ -1,4 +1,4 @@
-# Pattern 8
+# Pattern 9
 ## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Geek is very fond of patterns. Once, his teacher gave him a&nbsp;square pattern to solve. He gave Geek&nbsp;an integer n and asked him to build a pattern.</span></p>
 
