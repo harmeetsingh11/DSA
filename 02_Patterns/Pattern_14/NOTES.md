@@ -2,7 +2,7 @@
 We always use nested loops for printing the patterns. 
 1. For the outer loop, we count the number of lines/rows and loop for them.
 2. Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
-3. We print the `*` inside the inner loop.
+3. We print the character inside the inner loop.
 4. Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
    
 ### Time Complexity
@@ -17,9 +17,9 @@ Now, let's calculate the total number of iterations of the inner loop across all
 
 `1 + 2 + 3 + ... + N`
 
-This is the sum of the first `N` natural numbers, which can be represented as `N*(N+1)/2`.
+This is the sum of the first `N` natural numbers, which can be represented as $N*(N+1)/2$.
 
-Therefore, the overall time complexity of the program, using the frequency count method, is `O(N*(N+1)/2)`, which simplifies to **$O(N^2)$** in big O notation.
+Therefore, the overall time complexity of the program, using the frequency count method, is $O(N*(N+1)/2)$, which simplifies to **$O(N^2)$** in big O notation.
 
 where N is the number of rows/lines (horizontally).
 
