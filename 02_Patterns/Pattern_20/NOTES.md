@@ -21,7 +21,7 @@ When we put it all together, for each row:
 - The time spent in the second inner loop is roughly proportional to `N - i`.
 - The time spent in the third inner loop is roughly proportional to `i`.
 
-Considering these factors, the code's overall time complexity is quadratic, specifically `O(N^2)`, where N represents the number of rows or lines in the triangle.
+Considering these factors, the code's overall time complexity is quadratic, specifically **$O(N^2)$**, where N represents the number of rows or lines in the triangle.
 
 where N is the number of rows/lines (horizontally).
 
