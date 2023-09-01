@@ -61,11 +61,11 @@ Now, let's calculate the overall time complexity:
 
 So, the total number of iterations (or work done) by the innermost part of the code (the operations inside the inner loop) is:
 
-$(2*N - 1) * (2*N - 1)$
+`(2*N - 1) * (2*N - 1)`
 
 Simplifying this expression:
 
-$= 4*N^2 - 4*N + 1$
+`= 4*N^2 - 4*N + 1`
 
 In terms of Big O notation, the time complexity is **$O(N^2)$** because the dominant term is the quadratic term $N^2$. This means that the running time of the program grows quadratically with the input size N.
 
