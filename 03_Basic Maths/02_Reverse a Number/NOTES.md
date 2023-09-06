@@ -22,19 +22,21 @@
 
 ## Time Complexity Analysis
 
-1. **Initialization**: Initialize a variable `revNum` to 0. This is done in constant time and does not depend on the input size.
+The time complexity of the given code is O(log(n)), where `n` is the input integer.
 
-2. **Loop Through the Digits**:
-   - Enter a `while` loop that continues as long as `n` is greater than 0. The number of loop iterations depends on the number of digits in `n`.
-   
-   - Inside the loop, the code performs constant-time operations:
-     - Extracting the last digit of `n` using the modulo operation (`n % 10`).
-     - Updating `n` by performing integer division by 10 (`n //= 10`).
-     - Constructing the reversed number `revNum` by multiplying its current value by 10 and adding the extracted digit.
+Here's the explanation:
 
-3. **Repeat**: The loop repeats until all digits of the original number `n` have been processed.
+1. In each iteration of the `while` loop, one digit is extracted from `n` using the modulo operation (`n % 10`).
 
-4. **Return Reversed Number**: Finally, when the loop completes, the function returns the reversed number.
+2. After extracting the last digit, integer division is performed (`n //= 10`) to remove the last digit from `n`.
+
+3. The extracted digit is then appended to the `revNum` by multiplying the current `revNum` by 10 and adding the extracted digit (`revNum = (revNum * 10) + last_digit`).
+
+Since each iteration of the loop reduces the value of `n` by a factor of 10 (due to integer division), the number of iterations required is proportional to the number of digits in `n`.
+
+For an integer with `d` digits, the loop will run approximately `d` times until `n` becomes zero.
+
+Therefore, the time complexity of the code is **$O(log(n))$**, where `n` is the input integer.
 
 
 
