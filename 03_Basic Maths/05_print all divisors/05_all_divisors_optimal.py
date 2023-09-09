@@ -1,5 +1,5 @@
 # Optimal Approach
-# Time Complexity - O(root(n))
+# Time Complexity - O(sqrt(n))
 
 def printAllDivisorsOptimal(n):
     # Initialize an empty list to store the divisors.
