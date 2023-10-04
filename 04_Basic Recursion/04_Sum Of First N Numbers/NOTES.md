@@ -1,6 +1,6 @@
 ## Recursive Approach
 
-1. In the problem statement, we have to print elements from N to 1.
+1. In the problem statement, we have to print sum of elements from 1 to N.
 2. Let's understand the logic:
 ```py
 # # n = 5
