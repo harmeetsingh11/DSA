@@ -1,6 +1,7 @@
 def recursiveFunction(s: str, start: int, end: int) -> str:
     if start >= end:
         return "true"
+    # if first and last character is not same, then not palindrome
     if s[start] != s[end]:
         return "false"
     else:
