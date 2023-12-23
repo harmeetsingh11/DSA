@@ -1,11 +1,15 @@
 ## Recursive Approach
 
-- In this approach, we check the string using functional recursion where firstly, the letters on the two ends of the string (start, end) are compared to see if they’re the same or not.
-![Alt text](image_1.png)
-- If they’re the same then we simply call recursion for the next elements (start+1, end-1) and so on until the start becomes greater than or equal to the end. 
-![Alt text](image_2.png)
-- If at any point the character at start and the end differ, we return false stating that the string is not a palindrome.
-- Otherwise, if the base condition is reached, then the string is obviously a palindrome and we return true.
+To solve this problem, we can use a recursive approach. We'll define a helper function `isPalindromeHelper`, that takes two pointers, start and end, indicating the current positions in the string to compare.
+ 
+
+- **Base Case:** If the start pointer is greater than or equal to the end pointer, we have checked all the characters in the string, and they match. So, we can return true as the string is a palindrome.
+- **Recursive Case:** Check if the characters at the start and end pointers are equal:
+  ![Alt text](image_1.png)
+    - If they are equal, we can recursively call the `isPalindromeHelper` function by moving the start pointer to the right and the end pointer to the left. This way, we compare the next pair of characters.
+    ![Alt text](image_2.png)
+    - If unequal, we can immediately return false if the string is not a palindrome.
+
 
 ### Time Complexity
 
