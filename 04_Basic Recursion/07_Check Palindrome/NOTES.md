@@ -14,9 +14,10 @@ To solve this problem, we can use a recursive approach. We'll define a helper fu
 ### Time Complexity
 
 - The time complexity of the recursive function can be expressed as $O(N)$, where $N$ is the length of the input string. 
+- In the worst case, we will perform total `(n/2)` comparisons. Therefore, the time complexity is $O(N)$.
 - This is because each recursive call processes one character from the beginning and one from the end until the base case is reached.
 
 ### Space Complexity
-- The space complexity is $O(N)$ as well. 
-- This is due to the recursive nature of the function, which creates a new function call on the call stack for each character pair. 
-- The space required on the stack is proportional to the length of the input string.
+- The space complexity is $O(1)$ as well. 
+- We always return the next recursive call so they won't stack up on the call stack.
+- Therefore, the space complexity is $O(1)$.
