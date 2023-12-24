@@ -116,7 +116,7 @@ print(math.pow(2, 200))
 # But still less than infinity
 print(math.pow(2, 200) < float("inf"))
 
-# ---------------ARRAYS----------------------
+# ---------------ARRAYS OR LISTS----------------------
 # ARRAYS
 # Arrays (called lists in python)
 
