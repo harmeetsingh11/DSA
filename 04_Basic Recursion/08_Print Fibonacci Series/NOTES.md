@@ -6,7 +6,7 @@ In this approach, instead of printing the Fibonacci series till N, we’re going
 
 One may wonder how multiple-function calls work. Let’s understand through an illustration below:
 
-![Alt text](image_1.webp)
+![multiple recursion calls](image_1.webp)
 
 Similar kinds of multiple-function calls would be used in implementing the Fibonacci series where any Nth Fibonacci number can be written as a sum of `(N-1)`th and `(N-2)`th Fibonacci numbers. So, the function result would look like this:
 
@@ -22,7 +22,7 @@ Results from both the function calls would be summed and returned to the main fu
 
 Let us see the recursion tree for the following problem to get an even better understanding:
 
-![Alt text](image_2.webp)
+![Recursion tree](image_2.webp)
 
 ### Time Complexity
 - The time complexity of this recursive solution is $O(2^N)$ 
