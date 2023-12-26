@@ -22,4 +22,4 @@ To solve this problem, we can use a recursive approach. We'll define a helper fu
 - We always return the next recursive call so they won't stack up on the call stack.
 - Therefore, the space complexity is $O(1)$.
 
-**The credit for the images and the notes goes to Striver's AtoZ DSA Sheet - [TakeUForward](https://takeuforward.org/)**
+*The credit for the images and the notes goes to Striver's AtoZ DSA Sheet - [TakeUForward](https://takeuforward.org/)*
