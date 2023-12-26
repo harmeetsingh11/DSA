@@ -45,3 +45,5 @@ The recursive method has an approach almost similar to the iterative one. The ap
 - Therefore, the space complexity is O(n).
 
 It's important to note that while the code uses recursion, it doesn't create a new list or consume additional memory for the reversal, so the space complexity remains O(n).
+
+**The credit for the image goes to Striver's AtoZ DSA Sheet - [TakeUForward](https://takeuforward.org/)**
