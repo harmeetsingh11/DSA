@@ -32,4 +32,29 @@ Let us see the recursion tree for the following problem to get an even better un
 - The space complexity is $O(N)$ 
 - At maximum there could be `N` function calls waiting in the recursion stack since we need to calculate the Nth Fibonacci number for which we also need to calculate `(N-1)` Fibonacci numbers before it.
 
+## Iterative Approach
+
+1. The function `generate_fibonacci_series` initializes the Fibonacci series with the first two terms: 0 and 1.
+
+2. It checks if the number of terms (`n`) is less than or equal to 1. If so, it returns a list containing only the first term (0), as the Fibonacci series starts with 0.
+
+3. If `n` is greater than 1, the program enters a `while` loop. This loop continues until the length of the Fibonacci series is equal to the desired number of terms (`n`).
+
+4. Inside the loop, the next term is calculated by summing the last two terms of the Fibonacci series.
+
+5. The calculated next term is then appended to the Fibonacci series.
+
+6. Steps 4 and 5 are repeated until the length of the Fibonacci series reaches the specified number of terms (`n`).
+
+7. The final generated Fibonacci series is returned by the function.
+
+In summary, the program starts with the first two terms and iteratively calculates and appends the next term to build the Fibonacci series until the desired number of terms is achieved. The logic uses a loop to efficiently generate the series and ensures that the output adheres to the Fibonacci sequence.
+
+### Time Complexity
+
+The time complexity is $O(n)$ where n is the number of terms in the Fibonacci series. The loop iterates until the desired number of terms is reached, and each iteration involves constant time operations.
+
+### Space Complexity
+The space complexity is $O(n)$ as well. The space required is proportional to the number of terms in the Fibonacci series. The `fib_series` list stores the entire series, and its length is directly related to the input value `n`.
+
 *The credit for the images and the notes goes to Striver's AtoZ DSA Sheet - [TakeUForward](https://takeuforward.org/)*
