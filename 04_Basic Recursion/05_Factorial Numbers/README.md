@@ -1,4 +1,4 @@
-<h2>Factorial of a Number</a></h2><h3>Easy</h3><hr>
+<h2>Factorial of a Number</a></h2><img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /><hr>
 
 
 Given a positive integer, `N`. Find the factorial of `N`.
