@@ -1,4 +1,4 @@
-<h2><a href="https://www.codingninjas.com/studio/problems/reverse-of-a-number_624652">Reverse of a Number</a></h2><h3 color="green">Easy</h3><hr>
+<h2><a href="https://www.codingninjas.com/studio/problems/reverse-of-a-number_624652">Reverse of a Number</a></h2><h3 color="green"><img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /></h3><hr>
 
 ### Problem Statement
 
