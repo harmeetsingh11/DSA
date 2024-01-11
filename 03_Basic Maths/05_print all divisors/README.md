@@ -1,4 +1,4 @@
-<h2>Print all Divisors</h2><h3>Easy</h3><hr>
+<h2>Print all Divisors</h2><img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /><hr>
 
 You are given an integer `n`. Your task is to implement a function `printAllDivisors` that prints all the divisors of n in ascending order.
 
