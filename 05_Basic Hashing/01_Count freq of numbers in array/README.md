@@ -6,7 +6,7 @@
 
 Your task is to count the frequency of each element in the array and return an <strong>result</strong> where <strong>result</strong> contains all the <strong>elements</strong> with <strong> frequency </strong> of the each element.
 
-Ensure that the elements in the result array are in the same order as their appearance in the input array. Sove uig both Map and objects in JavaScript.
+Ensure that the elements in the result array are in the same order as their appearance in the input array. Solve using both Map and objects in JavaScript.
     <p><strong class="example">Example:</strong></p>
     <pre>
         <strong>Input:</strong> [1,1,2,2,2,3]
