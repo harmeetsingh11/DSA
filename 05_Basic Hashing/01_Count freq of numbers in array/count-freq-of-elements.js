@@ -1,5 +1,5 @@
 // USING OBJECT
-function countFrequency(arr) {
+function countFrequencyObject(arr) {
   // Initialize an empty object to store the frequency of each element
   const frequency = {};
 
@@ -16,7 +16,7 @@ function countFrequency(arr) {
 }
 
 // USING MAP()
-function countFrequency(arr) {
+function countFrequencyMap(arr) {
   // Initialize a new Map object to store the frequency of each element
   const frequency = new Map();
 
@@ -33,5 +33,5 @@ function countFrequency(arr) {
 }
 
 const arr = [1, 2, 3, 4, 2, 3, 1, 3, 4, 4, 5];
-const result = countFrequency(arr);
+const result = countFrequencyMap(arr);
 console.log(result);
