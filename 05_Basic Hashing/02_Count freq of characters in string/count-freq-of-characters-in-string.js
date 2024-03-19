@@ -1,5 +1,5 @@
 // METHOD 1: USING OBJECT
-function countCharacterFrequency(str) {
+function countCharacterFrequencyObject(str) {
   // Initialize an empty object to store the frequency of each character
   const frequency = {};
 
@@ -19,7 +19,7 @@ function countCharacterFrequency(str) {
 }
 
 // METHOD 2: USING MAP()
-function countCharacterFrequency(str) {
+function countCharacterFrequencyMap(str) {
   // Initialize a new Map object to store the frequency of each character
   const frequency = new Map();
 
@@ -38,6 +38,6 @@ function countCharacterFrequency(str) {
   return frequency;
 }
 
-const str = 'hello world';
-const result = countCharacterFrequency(str);
+const str = 'programming world';
+const result = countCharacterFrequencyMap(str);
 console.log(result);
