@@ -41,3 +41,5 @@ function countCharacterFrequencyMap(str) {
 const str = 'programming world';
 const result = countCharacterFrequencyMap(str);
 console.log(result);
+
+module.export = { countCharacterFrequencyMap, countCharacterFrequencyObject };

@@ -35,3 +35,6 @@ function countFrequencyMap(arr) {
 const arr = [1, 2, 3, 4, 2, 3, 1, 3, 4, 4, 5];
 const result = countFrequencyMap(arr);
 console.log(result);
+
+module.export = countFrequencyMap;
+module.export = countFrequencyObject;
