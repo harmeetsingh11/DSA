@@ -1,5 +1,10 @@
 // METHOD 1: USING OBJECT
 function countCharacterFrequencyObject(str) {
+  // If the input string is empty, return an empty object
+  if (str === '') {
+    return {};
+  }
+
   // Initialize an empty object to store the frequency of each character
   const frequency = {};
 
@@ -20,6 +25,11 @@ function countCharacterFrequencyObject(str) {
 
 // METHOD 2: USING MAP()
 function countCharacterFrequencyMap(str) {
+  // If the input string is empty, return an empty map
+  if (str === '') {
+    return new Map();
+  }
+
   // Initialize a new Map object to store the frequency of each character
   const frequency = new Map();
 
@@ -38,8 +48,8 @@ function countCharacterFrequencyMap(str) {
   return frequency;
 }
 
-const str = 'programming world';
+/* const str = '';
 const result = countCharacterFrequencyMap(str);
-console.log(result);
+console.log(result); */
 
-module.export = { countCharacterFrequencyMap, countCharacterFrequencyObject };
+module.exports = { countCharacterFrequencyMap, countCharacterFrequencyObject };

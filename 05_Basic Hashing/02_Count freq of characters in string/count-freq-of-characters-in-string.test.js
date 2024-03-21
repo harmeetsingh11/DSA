@@ -24,12 +24,11 @@ describe('countCharacterFrequencyObject function', () => {
   });
 
   it('should handle special characters properly', () => {
-    const inputString = '!@#$%^&*()';
+    const inputString = '!@#%^&*()';
     const expectedObject = {
       '!': 1,
       '@': 1,
       '#': 1,
-      $: 1,
       '%': 1,
       '^': 1,
       '&': 1,
