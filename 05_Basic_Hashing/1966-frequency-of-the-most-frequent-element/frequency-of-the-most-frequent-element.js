@@ -1,5 +1,25 @@
 var maxFrequency = function (nums, k) {
-  return sort(nums);
-};
+  nums.sort((a, b) => a - b);
 
-console.log(maxFrequency([2, 2, 1, 1, 1, 4]));
+  let left = 0,
+    right = 0;
+
+  let result = 0,
+    total = 0;
+
+  while (right < nums.length) {
+    total += nums[right];
+
+    let diff = nums[right] * (right - left + 1) - total;
+
+    while (diff > k) {
+      total -= nums[left];
+      left++;
+      diff = nums[right] * (right - left + 1) - total;
+    }
+
+    result = Math.max(result, right - left + 1);
+    right++;
+  }
+  return result;
+};
