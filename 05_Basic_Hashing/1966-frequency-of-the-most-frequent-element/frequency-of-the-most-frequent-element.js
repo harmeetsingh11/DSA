@@ -23,3 +23,5 @@ var maxFrequency = function (nums, k) {
   }
   return result;
 };
+
+module.exports = maxFrequency;
