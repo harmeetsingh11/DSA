@@ -67,3 +67,19 @@ Here's a breakdown of the code:
 - If `diff` exceeds `k`, we shrink the window by moving the `left` pointer forward and update `total` accordingly.
 - We update `result` to store the maximum window size encountered so far using `Math.max(result, right - left + 1)`.
 - Finally, we return the value stored in `result`, which represents the maximum possible frequency of an element after performing at most k operations.
+
+### Time Complexity
+
+- Sorting the array `nums` takes O(n log n) time, where n is the number of elements in the array.
+- The main loop iterates through the array once. Within each iteration:
+  - Calculating `total` and `diff` takes constant time.
+  - The inner while loop may iterate at most n times in total, as the left pointer can move from 0 to n-1. However, the total number of iterations across all iterations of the outer loop is still bounded by O(n).
+  - Updating `result` and moving the pointers takes constant time.
+
+>Hence, the overall time complexity is dominated by the sorting step, making it **$O(n log n)$**.
+
+### Space Complexity
+
+In Javascript, the sort() function is implemented using the Timsort algorithm, which has a worst-case space complexity of **$O(nlogn)$**
+
+>Therefore, the space complexity of the code is O(nlogn).
