@@ -76,10 +76,10 @@ Here's a breakdown of the code:
   - The inner while loop may iterate at most n times in total, as the left pointer can move from 0 to n-1. However, the total number of iterations across all iterations of the outer loop is still bounded by O(n).
   - Updating `result` and moving the pointers takes constant time.
 
->Hence, the overall time complexity is dominated by the sorting step, making it **$O(n log n)$**.
+> Hence, the overall time complexity is dominated by the sorting step, making it **$O(n log n)$**.
 
 ### Space Complexity
 
 In Javascript, the sort() function is implemented using the Timsort algorithm, which has a worst-case space complexity of **$O(nlogn)$**
 
->Therefore, the space complexity of the code is O(nlogn).
+> Therefore, the space complexity of the code is O(nlogn).
