@@ -115,3 +115,19 @@ Add `target` to `curr`.
       - Subtract `nums[left]` from `curr`.
       - Increment `left`.
 4. Return `nums.length - left`.
+
+### Time Complexity
+
+Given `n` as the length of `nums`,
+
+Time complexity: **$O(nlogn)$**
+
+Each iteration of the for loop costs $O(1)$. This means the sliding window process runs in $O(n)$.
+
+> However, we need to sort the array, which costs **$O(nlogn)$**.
+
+### Space Complexity
+
+In Javascript, the `sort()` function is implemented using the Timsort algorithm, which has a worst-case space complexity of **$O(nlogn)$**
+
+> Therefore, the space complexity of the code is **$O(nlogn)$**.
