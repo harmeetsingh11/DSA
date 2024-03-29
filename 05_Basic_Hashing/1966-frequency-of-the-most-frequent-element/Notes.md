@@ -131,3 +131,48 @@ Each iteration of the for loop costs $O(1)$. This means the sliding window proce
 In Javascript, the `sort()` function is implemented using the Timsort algorithm, which has a worst-case space complexity of **$O(nlogn)$**
 
 > Therefore, the space complexity of the code is **$O(nlogn)$**.
+
+## Approach 3: Binary Search (from leetcode)
+
+Given an index `i`, if we treat `nums[i]` as `target`, we are concerned with how many elements on the left we can take. In the earlier approaches, we used a sliding window. 
+
+In this approach, we will directly find the left-most index of these elements using binary search.
+
+Let's say that `best` is the index of the furthest element to the left that we could increment to `target = nums[i]`. Note that here, best is analogous to what `left` was after the while loop finished in the first approach. How do we find `best`?
+
+The value of best must be in the range `[0, i]`. We will perform a binary search on this range. For a given index `mid`:
+
+- The number of elements in the window would be `count = i - mid + 1`.
+- Thus, the final sum after making every element in the window equal to `target` would be `finalSum = count * target`.
+- The original sum of the elements is the sum of the elements from index `mid` to index `i`. We can use a prefix sum to find this `originalSum`.
+- Thus, the number of operations we need is `operationsRequired = finalSum - originalSum`.
+- If `operationsRequired > k`, it's impossible to include the index `mid`. We update `left = mid + 1`.
+- Otherwise, the task is possible and we should look for a better index. We update `best = mid` and `right = mid - 1`.
+
+Essentially, we are binary searching the left bound from the first approach for a given right bound `i`. If we pre-process a prefix sum, then for each `mid`, we have all the necessary information to find `operationsRequired`.
+
+**Algorithm**
+
+1. Define a function `check(i)`:
+    - Initialize the following integers:
+      - `target = nums[i]`, the current target.
+      - `left = 0`, the left bound of the binary search.
+      - `right = i`, the right bound of the binary search.
+      - `best = i`, the best (furthest left) index that we can increment to `target`.
+
+    - While `left <= right`
+      - Calculate `mid = (left + right) / 2`.
+      - Calculate `count = i - mid + 1`.
+      - Calculate `finalSum = count * target`.
+      - Calculate `originalSum = prefix[i] - prefix[mid] + nums[mid]`.
+      - Calculate `operationsRequired = finalSum - originalSum`.
+      - If `operationsRequired > k`, move `left = mid + 1`.
+      - Otherwise, update `best = mid` and `right = mid - 1`.
+    - Return `i - best + 1`.
+
+2. Sort `nums`.
+3. Create a `prefix` sum of `nums`.
+4. Initialize `ans = 0`.
+5. Iterate `i` over the indices of `nums`:
+   - Update `ans` with `check(i)` if it is larger.
+6. Return `ans`.
