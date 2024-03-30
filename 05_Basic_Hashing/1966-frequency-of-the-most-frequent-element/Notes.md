@@ -176,3 +176,16 @@ Essentially, we are binary searching the left bound from the first approach for 
 5. Iterate `i` over the indices of `nums`:
    - Update `ans` with `check(i)` if it is larger.
 6. Return `ans`.
+   
+
+### Time Complexity 
+
+First, we sort `nums` which costs $O(nlogn)$.
+
+Next, we iterate over the indices of `nums`. For each of the $O(n)$ indices, we call check, which costs up to $O(logn)$ as its a binary search over the array's elements. 
+
+The total cost is **$O(nlogn)$**.
+
+### Space Complexity 
+
+The prefix array uses **$O(n)$** space.
