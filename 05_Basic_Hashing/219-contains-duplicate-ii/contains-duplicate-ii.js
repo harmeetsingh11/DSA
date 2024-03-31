@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {boolean}
- */
 var containsNearbyDuplicate = function(nums, k) {
     let left = 0;
     const numSet = new Set();
