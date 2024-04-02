@@ -1,7 +1,7 @@
-const {
+import {
   countFrequencyMap,
   countFrequencyObject,
-} = require('./count-freq-of-elements');
+} from './count-freq-of-elements';
 
 describe('countFrequencyObject function', () => {
   it('should return an empty object for an empty array', () => {

@@ -1,5 +1,5 @@
 // METHOD 1: USING OBJECT
-function countCharacterFrequencyObject(str) {
+export function countCharacterFrequencyObject(str) {
   // If the input string is empty, return an empty object
   if (str === '') {
     return {};
@@ -24,7 +24,7 @@ function countCharacterFrequencyObject(str) {
 }
 
 // METHOD 2: USING MAP()
-function countCharacterFrequencyMap(str) {
+export function countCharacterFrequencyMap(str) {
   // If the input string is empty, return an empty map
   if (str === '') {
     return new Map();
@@ -51,5 +51,3 @@ function countCharacterFrequencyMap(str) {
 /* const str = '';
 const result = countCharacterFrequencyMap(str);
 console.log(result); */
-
-module.exports = { countCharacterFrequencyMap, countCharacterFrequencyObject };

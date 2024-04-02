@@ -1,4 +1,4 @@
-const containsNearbyDuplicate = require('./contains-duplicate-ii');
+import containsNearbyDuplicate from './contains-duplicate-ii';
 
 describe('containsNearbyDuplicate', () => {
   it('Should return true for nums = [1,2,3,1], k = 3', () => {

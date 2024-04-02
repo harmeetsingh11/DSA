@@ -1,4 +1,4 @@
-const maxFrequency = require('./frequency-of-the-most-frequent-element');
+import maxFrequency from './frequency-of-the-most-frequent-element';
 
 describe('maxFrequency function', () => {
   it('Example 1: [1, 2, 4], k = 5', () => {
