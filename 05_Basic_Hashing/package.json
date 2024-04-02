@@ -1,6 +1,5 @@
 {
   "name": "05_basic_hashing",
-  "module": "index.ts",
   "type": "module",
   "scripts": {
     "test": "jest"
