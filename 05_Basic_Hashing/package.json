@@ -1,15 +1,17 @@
 {
-  "name": "05_Basic Hashing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "05_basic_hashing",
+  "module": "index.ts",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
     "jest": "^29.7.0"
   }
 }
