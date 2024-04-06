@@ -1,4 +1,4 @@
-export var findMaxAverage = function (nums, k) {
+var findMaxAverage = function (nums, k) {
   // Calculate the sum of the first k elements of the array nums
   let sum = nums.slice(0, k).reduce((acc, element) => acc + element, 0);
 
@@ -26,3 +26,5 @@ export var findMaxAverage = function (nums, k) {
   // Return the maximum average by dividing maxSum by k
   return maxSum / k;
 };
+
+export default findMaxAverage;
