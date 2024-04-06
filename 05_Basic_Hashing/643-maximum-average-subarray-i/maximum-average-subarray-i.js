@@ -1,4 +1,4 @@
-var findMaxAverage = function (nums, k) {
+export var findMaxAverage = function (nums, k) {
   // Calculate the sum of the first k elements of the array nums
   let sum = nums.slice(0, k).reduce((acc, element) => acc + element, 0);
 
@@ -12,13 +12,12 @@ var findMaxAverage = function (nums, k) {
 
   // Slide the window through the array nums
   while (right < nums.length - 1) {
-      
     // Update sum by adding the next element and subtracting the leftmost element
     sum = sum + nums[right + 1] - nums[left];
-      
+
     // Update maxSum to be the maximum of sum and maxSum
     maxSum = Math.max(sum, maxSum);
-      
+
     // Move the window by incrementing left and right pointers
     left++;
     right++;
