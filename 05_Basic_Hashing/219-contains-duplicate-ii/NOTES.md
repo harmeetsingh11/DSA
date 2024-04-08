@@ -19,19 +19,19 @@ In summary, the sliding window approach efficiently handles the problem by maint
 
 ### Time Complexity:
 
-  - The function iterates through the `nums` array once with a single loop, which has a time complexity of O(n), where n is the length of the `nums` array.
+  - The function iterates through the `nums` array once with a single loop, which has a time complexity of $O(n)$, where n is the length of the `nums` array.
   - Inside the loop, the operations performed are constant-time operations (addition, deletion, and checking membership in a Set), which do not depend on the size of the input array.
-  - Thus, the overall time complexity of the function is O(n).
+  - Thus, the overall time complexity of the function is **$O(n)$**.
 
 ### Space Complexity:
   - The function uses a Set (`numSet`) to store unique elements within the sliding window. The size of this set is bounded by the value of `k`.
   - In the worst-case scenario, when there are no duplicates within the sliding window of size `k`, the Set will contain at most `k` elements.
-  - Therefore, the space complexity of the function is O(k).
+  - Therefore, the space complexity of the function is **$O(k)$**.
 
 > [!NOTE]
 > In summary:
-> - Time Complexity: O(n)
-> - Space Complexity: O(k)
+> - Time Complexity: **$O(n)$**
+> - Space Complexity: **$O(k)$**
 > 
 > Where:
 > - n is the length of the `nums` array.
