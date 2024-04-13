@@ -4,7 +4,7 @@ This repository contains solutions to various pattern questions along with detai
 
 | S.No | Pattern  | Solution | Notes |
 |------|--------------------------|-----------------|--------------|
-| 1    | `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *`                | [Solution](#)   | [Notes](#)   |
+| 1    | [`* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *`](#)                | [Solution](#)   | [Notes](#)   |
 | 2 | `*` <br> `* *` <br> `* * *` <br> `* * * *` <br> `* * * * *` | [Solution](#) | [Notes](#) |
 | 3    | Pattern 3                | [Solution](#)   | [Notes](#)   |
 | 4    | Pattern 4                | [Solution](#)   | [Notes](#)   |
