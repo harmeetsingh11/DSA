@@ -5,7 +5,13 @@ This repository contains solutions to various pattern questions along with detai
 | S.No | Pattern  | Solution | Notes |
 |------|--------------------------|-----------------|--------------|
 | 1    | Pattern 1                | [Solution](#)   | [Notes](#)   |
-| 2    | `*` <br>`* *`<br> `* * *`<br> `* * * *`<br> `* * * * *`
+| 2    | ```
+* 
+* * 
+* * * 
+* * * *
+* * * * *
+```
 | [Solution](#)   | [Notes](#)   |
 | 3    | Pattern 3                | [Solution](#)   | [Notes](#)   |
 | 4    | Pattern 4                | [Solution](#)   | [Notes](#)   |
@@ -28,10 +34,3 @@ This repository contains solutions to various pattern questions along with detai
 | 21   | Pattern 21               | [Solution](#)   | [Notes](#)   |
 | 22   | Pattern 22               | [Solution](#)   | [Notes](#)   |
 
-```
-* 
-* * 
-* * * 
-* * * *
-* * * * *
-```
