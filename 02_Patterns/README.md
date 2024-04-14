@@ -4,13 +4,13 @@ This repository contains solutions to various pattern questions along with detai
 
 | S.No | Pattern  | Solution | Notes |
 |------|--------------------------|-----------------|--------------|
-| 1    | [`* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *`](#)                | [Solution](#)   | [Notes](#)   |
+| 1    | `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *` <br> `* * * * *`                | [Solution](#)   | [Notes](#)   |
 | 2 | `*` <br> `* *` <br> `* * *` <br> `* * * *` <br> `* * * * *` | [Solution](#) | [Notes](#) |
-| 3    | Pattern 3                | [Solution](#)   | [Notes](#)   |
-| 4    | Pattern 4                | [Solution](#)   | [Notes](#)   |
-| 5    | Pattern 5                | [Solution](#)   | [Notes](#)   |
-| 6    | Pattern 6                | [Solution](#)   | [Notes](#)   |
-| 7    | Pattern 7                | [Solution](#)   | [Notes](#)   |
+| 3    | `1` <br> `1 2` <br> `1 2 3` <br> `1 2 3 4` <br> `1 2 3 4 5`                | [Solution](#)   | [Notes](#)   |
+| 4    | `1` <br> `2 2` <br> `3 3 3` <br> `4 4 4 4` <br> `5 5 5 5 5`                | [Solution](#)   | [Notes](#)   |
+| 5    | `* * * * *` <br> `* * * *` <br> `* * *` <br> `* *` <br> `*`                | [Solution](#)   | [Notes](#)   |
+| 6    | `1 2 3 4 5`<br>`1 2 3 4`<br>`1 2 3`<br>`1 2` <br> `1`                | [Solution](#)   | [Notes](#)   |
+| 7    |   `*` <br> `* * *` <br> `* * * * *` <br> `* * * * * * *` <br> `* * * * * * * * *`         | [Solution](#)   | [Notes](#)   |
 | 8    | Pattern 8                | [Solution](#)   | [Notes](#)   |
 | 9    | Pattern 9                | [Solution](#)   | [Notes](#)   |
 | 10   | Pattern 10               | [Solution](#)   | [Notes](#)   |
