@@ -10,7 +10,7 @@ This repository contains solutions to various pattern questions along with detai
 | 4    | `1` <br> `2 2` <br> `3 3 3` <br> `4 4 4 4` <br> `5 5 5 5 5`                | [Solution](#)   | [Notes](#)   |
 | 5    | `* * * * *` <br> `* * * *` <br> `* * *` <br> `* *` <br> `*`                | [Solution](#)   | [Notes](#)   |
 | 6    | `1 2 3 4 5`<br>`1 2 3 4`<br>`1 2 3`<br>`1 2` <br> `1`                | [Solution](#)   | [Notes](#)   |
-| 7    |  <pre>        * <br>      * * * <br>    * * * * * <br>  * * * * * * * <br>* * * * * * * * *</pre>        | [Solution](#)   | [Notes](#)   |
+| 7    |  <pre>        `*` <br>      `* * *` <br>    `* * * * *` <br>  `* * * * * * *` <br>`* * * * * * * * *`</pre>        | [Solution](#)   | [Notes](#)   |
 | 8    | Pattern 8                | [Solution](#)   | [Notes](#)   |
 | 9    | Pattern 9                | [Solution](#)   | [Notes](#)   |
 | 10   | Pattern 10               | [Solution](#)   | [Notes](#)   |
