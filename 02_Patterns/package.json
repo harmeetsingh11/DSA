@@ -1,0 +1,17 @@
+{
+  "name": "02_patterns",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
