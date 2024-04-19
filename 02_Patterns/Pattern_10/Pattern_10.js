@@ -19,6 +19,6 @@ function printTriangle(N) {
 }
 
 // Call the function
-printTriangle(5);
+printTriangle(15);
 
 export default printTriangle;
