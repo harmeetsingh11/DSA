@@ -20,3 +20,5 @@ function printTriangle(N) {
 
 // Call the function
 printTriangle(5);
+
+export default printTriangle;
