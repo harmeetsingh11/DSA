@@ -27,6 +27,6 @@ function printDiamond(N) {
 }
 
 // Call the function
-// printDiamond(5);
+// printDiamond(10);
 
 export default printDiamond;
