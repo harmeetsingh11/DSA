@@ -13,7 +13,7 @@ function invertedRightAngleTrianglePattern(n) {
 }
 
 // Call the function
-invertedRightAngleTrianglePattern(9);
+// invertedRightAngleTrianglePattern(9);
 
 // Export the function for testing
 export default invertedRightAngleTrianglePattern;
