@@ -14,7 +14,7 @@ function printDiamond(N) {
 
   // LOWER TRIANGLE
   // outer loop for number of lines
-  for (let i = N - 1; i >= 1; i--) {
+  for (let i = N; i >= 1; i--) {
     // for spaces
     let spaces = ' '.repeat(N - i);
 
