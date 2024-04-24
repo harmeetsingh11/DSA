@@ -13,7 +13,7 @@ function invertedRightTriangleStarPattern(n) {
 }
 
 // Call the function
-invertedRightTriangleStarPattern(10);
+// invertedRightTriangleStarPattern(10);
 
 // Export the function for testing
 export default invertedRightTriangleStarPattern;
