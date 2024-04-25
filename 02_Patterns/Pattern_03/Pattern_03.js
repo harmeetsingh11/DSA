@@ -4,7 +4,7 @@ function rightTriangleNumberPattern(n) {
     let line = '';
     // Loop through each column in the current line
     for (let j = 1; j <= i; j++) {
-      // Append the current line number followed by a space to the line
+      // Append the current column number followed by a space to the line
       line += j + ' ';
     }
     // Print the line to the console

@@ -4,7 +4,7 @@ function rightTriangleStarPattern(n) {
     let line = '';
     // Loop through each column in the current line
     for (let j = 1; j <= i; j++) {
-      // Append the current line number followed by a space to the line
+      // Append the star followed by a space to the line
       line += '* ';
     }
     // Print the line to the console
