@@ -1,17 +1,12 @@
 {
   "name": "02_patterns",
-  "module": "index.ts",
-  "type": "module",
-  "scripts": {
-    "test": "jest"
+  "version": "1.0.0",
+  "description": "This repository contains solutions to various pattern questions along with detailed explanations and notes.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "jest": "^29.7.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
