@@ -27,3 +27,46 @@ This repository contains solutions to various pattern questions along with detai
 | 21   | <pre>`* * * *`<br>`*     *`<br>`*     *`<br>`* * * *`</pre>               | [Problem](./Pattern_21/README.md) | [Solution](./Pattern_21/Pattern_21.py)   | [Notes](./Pattern_21/NOTES.md)   |
 | 22   | <pre>`4 4 4 4 4 4 4`<br>`4 3 3 3 3 3 4`<br>`4 3 2 2 2 3 4`<br>4` 3 2 1 2 3 4`<br>`4 3 2 2 2 3 4`<br>`4 3 3 3 3 3 4`<br>`4 4 4 4 4 4 4`</pre>               | [Problem](./Pattern_22/README.md) | [Solution](./Pattern_22/Pattern_22.py)   | [Notes](./Pattern_22/NOTES.md)   |
 
+# Testing
+
+All the tests for the above problems are located in the `tests` directory and are written using Jest.
+
+## Running Tests
+
+### To run tests for all the pattern problems:
+
+```bash
+npx jest
+```
+
+### To run a specific test:
+
+```bash
+npx jest -- --findRelatedTests tests/filename.test.js
+```
+
+Replace `filename.test.js` with the name of the specific test file you want to run.
+
+For example:
+
+```bash
+npx jest -- --findRelatedTests tests/Pattern_05.test.js
+```
+
+### If you don't have a `package.json` file:
+
+1. You can create it using the following command:
+
+    ```bash
+    npm init -y
+    ```
+
+2. Add the following configuration to your `package.json`:
+
+    ```json
+    "directories": {
+        "test": "tests"
+    }
+    ```
+
+3. Run tests using the commands mentioned above.
