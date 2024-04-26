@@ -16,4 +16,4 @@ function fullSquareStarPattern(n) {
 // fullSquareStarPattern(5);
 
 // Export the function for testing
-export default fullSquareStarPattern;
+module.exports = fullSquareStarPattern;
