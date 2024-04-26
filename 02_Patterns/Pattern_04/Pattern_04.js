@@ -16,4 +16,4 @@ function rightTrianglePattern(n) {
 // rightTrianglePattern(5);
 
 // Export the function for testing
-export default rightTrianglePattern;
+module.exports = rightTrianglePattern;

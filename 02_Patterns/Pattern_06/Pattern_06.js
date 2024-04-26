@@ -16,4 +16,4 @@ function invertedRightAngleTrianglePattern(n) {
 // invertedRightAngleTrianglePattern(9);
 
 // Export the function for testing
-export default invertedRightAngleTrianglePattern;
+module.exports = invertedRightAngleTrianglePattern;

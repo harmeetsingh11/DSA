@@ -21,4 +21,4 @@ function printTriangle(N) {
 // Call the function
 // printTriangle(15);
 
-export default printTriangle;
+module.exports = printTriangle;

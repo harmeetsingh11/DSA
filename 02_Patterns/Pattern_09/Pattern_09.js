@@ -29,4 +29,4 @@ function printDiamond(N) {
 // Call the function
 // printDiamond(10);
 
-export default printDiamond;
+module.exports = printDiamond;

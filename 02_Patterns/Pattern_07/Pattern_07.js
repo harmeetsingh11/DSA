@@ -15,4 +15,4 @@ function pyramid(n) {
 // Call the function
 // pyramid(5);
 
-export default pyramid;
+module.exports = pyramid;

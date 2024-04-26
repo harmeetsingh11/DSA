@@ -15,4 +15,4 @@ function invertedPyramid(n) {
 // Call the function
 // invertedPyramid(10);
 
-export default invertedPyramid;
+module.exports = invertedPyramid;
