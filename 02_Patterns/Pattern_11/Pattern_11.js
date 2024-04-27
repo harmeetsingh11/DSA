@@ -14,7 +14,7 @@ function zeroOnesTrianglePattern(n) {
 }
 
 // Call the function
-zeroOnesTrianglePattern(5);
+// zeroOnesTrianglePattern(5);
 
 // Export the function for testing
 module.exports = zeroOnesTrianglePattern;
