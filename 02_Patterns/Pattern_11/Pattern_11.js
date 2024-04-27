@@ -13,5 +13,8 @@ function zeroOnesTrianglePattern(n) {
   }
 }
 
-// Example usage:
+// Call the function
 zeroOnesTrianglePattern(5);
+
+// Export the function for testing
+module.exports = zeroOnesTrianglePattern;
