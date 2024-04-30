@@ -15,7 +15,7 @@ function characterPattern(n) {
 }
 
 // call the function
-characterPattern(5);
+// characterPattern(5);
 
 // Export the function for testing
 module.exports = characterPattern;

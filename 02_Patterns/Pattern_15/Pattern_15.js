@@ -16,7 +16,7 @@ function invertedAlphabeticalPattern(n) {
 }
 
 // Call the function
-invertedAlphabeticalPattern(5);
+// invertedAlphabeticalPattern(5);
 
 // Export the function for testing
 module.exports = invertedAlphabeticalPattern;
