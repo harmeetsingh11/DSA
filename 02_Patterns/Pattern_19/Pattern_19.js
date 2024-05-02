@@ -47,7 +47,7 @@ function hollowDiamondStarPattern(n) {
 }
 
 // Call the function
-hollowDiamondStarPattern(15);
+// hollowDiamondStarPattern(15);
 
 // Export the function for testing
 module.exports = hollowDiamondStarPattern;
