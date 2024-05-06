@@ -1,0 +1,12 @@
+{
+  "name": "03_basic_maths",
+  "version": "1.0.0",
+  "description": "This directory includes problems, solutions and accompanying notes for various basic math problems.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
