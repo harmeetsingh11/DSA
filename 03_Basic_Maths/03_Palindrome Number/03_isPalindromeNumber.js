@@ -22,7 +22,7 @@ function isPalindrome(n) {
 }
 
 // Call the fucntion using sample inputs
-// console.log(isPalindrome(51415)); // Output: true
+// console.log(isPalindrome(61416)); // Output: true
 
 // Export the function for testing
 module.exports = isPalindrome;
