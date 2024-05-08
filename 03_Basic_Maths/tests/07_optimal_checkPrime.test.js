@@ -1,23 +1,21 @@
-function checkPrimeOptimal(n) {
-  let count = 0;
-  for (let i = 1; i <= Math.sqrt(n); i++) {
-    if (n % i === 0) {
-      count++;
-      if (i !== n / i) {
-        count++;
-      }
-    }
-  }
+const checkPrimeOptimal = require('../07_Check Prime Number/07_optimal_checkPrime');
 
-  if (count === 2) {
-    return 'YES';
-  } else {
-    return 'NO';
-  }
-}
+test('1 is not a prime number', () => {
+  expect(checkPrimeOptimal(1)).toBe('NO');
+});
 
-// call the function using sample input
-console.log(checkPrimeOptimal(6));
+test('2 is a prime number', () => {
+  expect(checkPrimeOptimal(2)).toBe('YES');
+});
 
-// Export the function for testing
-module.exports = checkPrimeOptimal;
+test('13 is a prime number', () => {
+  expect(checkPrimeOptimal(13)).toBe('YES');
+});
+
+test('20 is not a prime number', () => {
+  expect(checkPrimeOptimal(20)).toBe('NO');
+});
+
+test('29 is a prime number', () => {
+  expect(checkPrimeOptimal(29)).toBe('YES');
+});
