@@ -1,7 +1,7 @@
 # [Recursion Tutorial by Utkarsh Gupta](https://www.youtube.com/watch?v=0UM_J1jE1dg)
 
 ## Factorial of a number 
-```py
+```js
 # fact(4) = 4*3*2*1 = 4*fact(3)
 # fact(3) = 3*2*1 = 3*fact(2)
 # fact(2) = 2*1 = 2*fact(1)
@@ -9,12 +9,15 @@
 # TRUST THE FUNCTION fact(n-1) will give factorial
 # fact(n) = n*fact(n-1)
 
-def factorial(n: int):
+function factorial(n){
     # base case
-    if n == 1:
+    if (n === 1){
         return 1
-    else:
+        }
+    else{
         return n * factorial(n-1)
+        }
+}
 ```
 
 ## Sum of 1 to n Natural numbers
