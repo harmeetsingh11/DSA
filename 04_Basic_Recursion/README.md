@@ -21,16 +21,19 @@ function factorial(n){
 ```
 
 ## Sum of 1 to n Natural numbers
-```py
+```js
 # n = 5
 # 1 + 2 + 3 + 4 + 5
 # TRUST THE FUNCTION-sum_n(n-1) will give sum of 1 to n-1
 # return 1 + 2 + 3 + .. (n-1) + n
-def sum_n(n: int):
-    if n == 0:
+function sum_n(n){
+    if (n === 0){
         return 0
-    else:
-        return sum_n(n-1) + n 
+    }
+    else{
+        return sum_n(n-1) + n
+    }
+} 
 ```
 
 ## Sum of digits of a number
