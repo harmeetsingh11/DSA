@@ -1,0 +1,12 @@
+{
+  "name": "04_basic_recursion",
+  "version": "1.0.0",
+  "description": "This directory includes problems, solutions and accompanying notes for various basic recursion problems.",
+  "main": "index.js",
+ "directories": {
+  "test": "tests"
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
