@@ -1,9 +1,8 @@
-function printNto1(n) {
+function printNto1(n, arr = []) {
   // Base case: When n reaches 0, return the empty array []
   if (n === 0) {
-    return [];
+    return arr;
   } else {
-    let arr = [];
     // we have to print from n to 1
 
     // First, print one element
@@ -13,8 +12,8 @@ function printNto1(n) {
     // TRUST the function that it will print n-1 to 1
     // It will print n-1 elements
     // Recursive call to printNto1 function for next element
-    // Concatenate the result of recursive call to current array
-    arr = arr.concat(printNto1(n - 1));
+    // Pass the array as an argument to avoid creating a new array in each recursion
+    printNto1(n - 1, arr);
 
     return arr;
   }
