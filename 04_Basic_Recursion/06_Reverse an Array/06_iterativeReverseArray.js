@@ -1,4 +1,4 @@
-function reverseArray(arr) {
+function reverseArrayIterative(arr) {
   const n = arr.length; // Get the length of the array
   let p1 = 0; // Initialize the p1 pointer at the beginning of the array
   let p2 = n - 1; // Initialize the p2 pointer at the end of the array
@@ -20,7 +20,7 @@ function reverseArray(arr) {
 }
 
 //   Call the function
-// reverseArray([1, 2, 3, 4, 5]);
+// reverseArrayIterative([1, 2, 3, 4, 5]);
 
 // Export the function for testing
-module.exports = reverseArray;
+module.exports = reverseArrayIterative;
