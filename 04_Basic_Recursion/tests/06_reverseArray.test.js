@@ -60,9 +60,9 @@ describe('Recursive Reverse Array', () => {
     expect(result).toBe(expected);
   });
 
-  test('Reverse [0]', () => {
-    const arr = [0];
-    const expected = '0';
+  test('Reverse [0, 1]', () => {
+    const arr = [0, 1];
+    const expected = '1 0';
     const result = reverseArrayRecursive([...arr]);
     expect(result).toBe(expected);
   });
