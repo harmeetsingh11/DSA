@@ -1,4 +1,4 @@
-function reverseArray(nums, start = 0, end = nums.length - 1) {
+function reverseArrayRecursive(nums, start = 0, end = nums.length - 1) {
   // Base case: If start is greater than or equal to end, return the array as it is reversed
   if (start >= end) {
     return nums;
@@ -16,4 +16,7 @@ function reverseArray(nums, start = 0, end = nums.length - 1) {
 }
 
 // call the function using sample inputs
-// console.log(reverseArray([1, 2, 3, 4, 5]));
+// console.log(reverseArrayRecursive([1, 2, 3, 4, 5]));
+
+// Export the function for testing
+module.exports = reverseArrayRecursive;
