@@ -8,7 +8,7 @@ function reverseArrayRecursive(nums, start = 0, end = nums.length - 1) {
 
     // TRUST the function: reverseArray function will reverse next pair of elements
     // Move the start pointer towards the right and end pointer towards the left
-    reverseArray(nums, start + 1, end - 1);
+    reverseArrayRecursive(nums, start + 1, end - 1);
   }
 
   // Return the reversed array
