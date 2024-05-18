@@ -168,11 +168,22 @@ This directory includes problems, solutions and accompanying notes for various b
 
 | S.No. | Problem | Solution | Difficulty | Solution Notes |
 |-------|----------|----------|------------|----------------|
-|1| [Print 1 to N](./01_Print%201%20to%20N/README.md) | [Recursive](./01_Print%201%20to%20N/print_1toN.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./01_Print%201%20to%20N/NOTES.md) |
-|2| [Print name N times](./02_Print%20name%20N%20times/README.md) | [Recursive](./02_Print%20name%20N%20times/printNtimes.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./02_Print%20name%20N%20times/NOTES.md) |
-|3| [Print N to 1](./03_Print%20N%20to%201/README.md) | [Recursive](./03_Print%20N%20to%201/print_Nto1.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./03_Print%20N%20to%201/NOTES.md) |
-|4| [Sum of first N numbers](./04_Sum%20Of%20First%20N%20Numbers/README.md) | [Optimal](./04_Sum%20Of%20First%20N%20Numbers/sumFirstNoptimal.py) <br> [Recursive](./04_Sum%20Of%20First%20N%20Numbers/sumFirstNrecursive.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./04_Sum%20Of%20First%20N%20Numbers/NOTES.md) |
-|5| [Factorial](./05_Factorial%20Numbers/README.md) | [Recursive](./05_Factorial%20Numbers/factorialNumbers.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./05_Factorial%20Numbers/NOTES.md) |
-|6| [Reverse an array](./06_Reverse%20an%20Array/README.md) | [Brute Force(Iterative)](./06_Reverse%20an%20Array/reverseArrayIterative.py) <br> [Recursive](./06_Reverse%20an%20Array/reverseArrayRecursive.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./06_Reverse%20an%20Array/NOTES.md) |
-|7| [Check Pallindrome](./07_Check%20Palindrome/README.md) | [Recursive](./07_Check%20Palindrome/checkPalindrome.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./07_Check%20Palindrome/NOTES.md) |
-|8| [Fibonacci Series](./08_Print%20Fibonacci%20Series/README.md) | [Brute Force(Iterative)](./08_Print%20Fibonacci%20Series/fibonacciIterative.py) <br> [Recursive](./08_Print%20Fibonacci%20Series/fibonacciRecursion.py) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./08_Print%20Fibonacci%20Series/NOTES.md) |
+|1| [Print 1 to N](./01_Print%201%20to%20N/README.md) | [Recursive](./01_Print%201%20to%20N/print_1toN.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./01_Print%201%20to%20N/NOTES.md) |
+|2| [Print name N times](./02_Print%20name%20N%20times/README.md) | [Recursive](./02_Print%20name%20N%20times/printNtimes.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./02_Print%20name%20N%20times/NOTES.md) |
+|3| [Print N to 1](./03_Print%20N%20to%201/README.md) | [Recursive](./03_Print%20N%20to%201/print_Nto1.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./03_Print%20N%20to%201/NOTES.md) |
+|4| [Sum of first N numbers](./04_Sum%20Of%20First%20N%20Numbers/README.md) | [Optimal](./04_Sum%20Of%20First%20N%20Numbers/sumFirstNoptimal.js
+) <br> [Recursive](./04_Sum%20Of%20First%20N%20Numbers/sumFirstNrecursive.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./04_Sum%20Of%20First%20N%20Numbers/NOTES.md) |
+|5| [Factorial](./05_Factorial%20Numbers/README.md) | [Recursive](./05_Factorial%20Numbers/factorialNumbers.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./05_Factorial%20Numbers/NOTES.md) |
+|6| [Reverse an array](./06_Reverse%20an%20Array/README.md) | [Brute Force(Iterative)](./06_Reverse%20an%20Array/reverseArrayIterative.js
+) <br> [Recursive](./06_Reverse%20an%20Array/reverseArrayRecursive.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./06_Reverse%20an%20Array/NOTES.md) |
+|7| [Check Pallindrome](./07_Check%20Palindrome/README.md) | [Recursive](./07_Check%20Palindrome/checkPalindrome.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./07_Check%20Palindrome/NOTES.md) |
+|8| [Fibonacci Series](./08_Print%20Fibonacci%20Series/README.md) | [Brute Force(Iterative)](./08_Print%20Fibonacci%20Series/fibonacciIterative.js
+) <br> [Recursive](./08_Print%20Fibonacci%20Series/fibonacciRecursion.js
+) | <img src="https://img.shields.io/badge/Easy-brightgreen" alt="Easy" /> | [Notes](./08_Print%20Fibonacci%20Series/NOTES.md) |
