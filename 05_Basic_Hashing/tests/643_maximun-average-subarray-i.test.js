@@ -1,4 +1,4 @@
-import findMaxAverage from './maximum-average-subarray-i';
+const findMaxAverage = require('../643-maximum-average-subarray-i/643_maximum-average-subarray-i');
 
 describe('findMaxAverage', () => {
   it('should return the correct maximum average for the given input', () => {

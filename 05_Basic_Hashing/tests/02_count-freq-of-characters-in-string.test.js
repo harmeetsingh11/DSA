@@ -1,8 +1,8 @@
 // Import the functions to be tested
-import {
+const {
   countCharacterFrequencyMap,
   countCharacterFrequencyObject,
-} from './count-freq-of-characters-in-string';
+} = require('../02_Count freq of characters in string/02_count-freq-of-characters-in-string');
 
 describe('countCharacterFrequencyObject function', () => {
   it('should return an empty object for an empty string', () => {
