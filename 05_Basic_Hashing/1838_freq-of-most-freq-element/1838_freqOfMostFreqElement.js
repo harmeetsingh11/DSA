@@ -30,3 +30,6 @@ console.log(maxFrequency([1, 2, 4], 5)); // Output: 3
 console.log(maxFrequency([1, 4, 8, 13], 5)); // Output: 2
 
 console.log(maxFrequency([3, 9, 6], 2)); // Output: 1
+
+// export the function for testing
+module.exports = maxFrequency;
