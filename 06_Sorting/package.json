@@ -1,0 +1,12 @@
+{
+  "name": "06_sorting",
+  "version": "1.0.0",
+  "description": "This directory includes problems, solutions and accompanying notes for all sorting algorithms.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
