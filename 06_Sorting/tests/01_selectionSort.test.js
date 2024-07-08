@@ -1,4 +1,4 @@
-const selectionSort = require('../01_Selection_Sort/01_selectionSort'); // Adjust the path as necessary
+const selectionSort = require('../01_Selection_Sort/01_selectionSort');
 
 test('sorts an array of integers in ascending order', () => {
   expect(selectionSort([64, 25, 12, 22, 11])).toEqual([11, 12, 22, 25, 64]);
