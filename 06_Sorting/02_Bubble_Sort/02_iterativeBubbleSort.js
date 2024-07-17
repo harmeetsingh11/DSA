@@ -15,7 +15,7 @@ function bubbleSortIterative(arr) {
 
 // Example usage:
 const arr = [5, 3, 8, 4, 2];
-console.log(bubbleSortIterative(arr));
+// console.log(bubbleSortIterative(arr));
 
 // Export the function for testing
 module.exports = bubbleSortIterative;
