@@ -1,26 +1,19 @@
 const bubbleSortIterative = require('../02_Bubble_Sort/02_iterativeBubbleSort');
+const bubbleSortOptimized = require('../02_Bubble_Sort/02_optimalBubbleSort'); // Update the path accordingly
 
-test('sorts an array of positive numbers', () => {
-  const arr = [5, 3, 8, 4, 2];
-  expect(bubbleSortIterative(arr)).toEqual([2, 3, 4, 5, 8]);
-});
+const testCases = [
+  { input: [5, 3, 8, 4, 2], expected: [2, 3, 4, 5, 8] },
+  { input: [1, 2, 3, 4, 5], expected: [1, 2, 3, 4, 5] },
+  { input: [5, -3, 8, 4, -2], expected: [-3, -2, 4, 5, 8] },
+  { input: [5, 3, 8, 3, 2], expected: [2, 3, 3, 5, 8] },
+  { input: [5], expected: [5] },
+];
 
-test('sorts an already sorted array', () => {
-  const arr = [1, 2, 3, 4, 5];
-  expect(bubbleSortIterative(arr)).toEqual([1, 2, 3, 4, 5]);
-});
-
-test('sorts an array with negative numbers', () => {
-  const arr = [5, -3, 8, 4, -2];
-  expect(bubbleSortIterative(arr)).toEqual([-3, -2, 4, 5, 8]);
-});
-
-test('sorts an array with duplicate numbers', () => {
-  const arr = [5, 3, 8, 3, 2];
-  expect(bubbleSortIterative(arr)).toEqual([2, 3, 3, 5, 8]);
-});
-
-test('sorts an array with a single element', () => {
-  const arr = [5];
-  expect(bubbleSortIterative(arr)).toEqual([5]);
+describe.each([
+  ['iterative bubble sort', bubbleSortIterative],
+  ['optimized bubble sort', bubbleSortOptimized],
+])('Testing %s', (name, bubbleSortFunction) => {
+  test.each(testCases)('sorts array %j correctly', ({ input, expected }) => {
+    expect(bubbleSortFunction([...input])).toEqual(expected);
+  });
 });
